@@ -3,15 +3,10 @@ import Buisness from '../Buisness/Buisness';
 
 import "./BuisnessList.css"
 
-const BuisnessList = () => {
+const BuisnessList = ({buisnesses}) => {
     return (
         <div className="BusinessList">
-            <Buisness/>
-            <Buisness/>
-            <Buisness/>
-            <Buisness/>
-            <Buisness/>
-            <Buisness/>
+            {buisnesses.map((buisness,index) => <Buisness key={index} buisnessDetails={buisness}/>)}
         </div>
     );
 };
