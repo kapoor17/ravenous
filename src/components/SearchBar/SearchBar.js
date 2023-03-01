@@ -58,11 +58,11 @@ const SearchBar = ({searchYelp}) => {
                 </ul>
             </div>
             <div className="SearchBar-fields">
-                <input placeholder="Search Businesses" onChange={handleTermChanges} value={term}/> 
+                <input placeholder="Search Businesses or Cuisine" onChange={handleTermChanges} value={term}/> 
                 <input placeholder="Where?" onChange={handleLocationChanges} value={location}/>
             </div>
             <div className="SearchBar-submit" onClick={handleSearch}>
-                <a>Let's Go</a>
+                <a>Search</a>
             </div>
         </div>
     );

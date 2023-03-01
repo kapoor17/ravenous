@@ -34,11 +34,20 @@ input:focus {
   font-family: 'Work Sans', sans-serif;
 }
 
-h1 {
+.header {
   padding: .66rem 0;
   text-align: center;
   background-color: #cca353;
-  font-family: Poppins, sans-serif;
-  font-size: 1.8rem;
   color: #fff;
+  font-family: Poppins, sans-serif;
+}
+
+.header h1{
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.header p {
+  font-size: 1rem;
+  font-weight: 200;
 }

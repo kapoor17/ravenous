@@ -18,7 +18,10 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>ravenous</h1>
+      <div className='header'>
+        <h1>ravenous.</h1> <br/> 
+        <p>Your very own Food Searching Platform</p>
+      </div>
       <SearchBar searchYelp={searchYelp}/>
       <BuisnessList buisnesses={buisnesses}/>
     </div>

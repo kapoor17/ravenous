@@ -6,9 +6,12 @@ import "./BuisnessList.css"
 const BuisnessList = (props) => {
     return (
         <div className="BusinessList">
-            {props.buisnesses.map((buisness,index) => { 
+            {props.buisnesses.length > 0 ?
+            props.buisnesses.map((buisness,index) => { 
                 return <Buisness key={index} buisnessDetails={buisness}/>
-            })}
+            }) :
+            <h1>Press Search to get Results!</h1>
+            }
         </div>
     );
 };
