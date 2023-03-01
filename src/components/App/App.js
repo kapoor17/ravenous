@@ -1,10 +1,13 @@
 import './App.css';
 import BuisnessList from '../BuisnessList/BuisnessList';
+import SearchBar from '../SearchBar/SearchBar';
 
 function App() {
   return (
-    <div className="App">
-        <BuisnessList/>
+    <div class="App">
+      <h1>ravenous</h1>
+      <SearchBar/>
+      <BuisnessList/>
     </div>
   );
 }
