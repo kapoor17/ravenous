@@ -10,7 +10,7 @@ const BuisnessList = (props) => {
             props.buisnesses.map((buisness,index) => { 
                 return <Buisness key={index} buisnessDetails={buisness}/>
             }) :
-            <h1>Press Search to get Results!</h1>
+            <h2>Press Search to get Results!</h2>
             }
         </div>
     );

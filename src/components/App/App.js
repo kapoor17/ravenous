@@ -19,7 +19,7 @@ const App = () => {
   return (
     <div className="App">
       <div className='header'>
-        <h1>ravenous.</h1> <br/> 
+        <h1>grub.</h1>
         <p>Your very own Food Searching Platform</p>
       </div>
       <SearchBar searchYelp={searchYelp}/>
